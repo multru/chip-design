@@ -1,0 +1,24 @@
+.header-menu {
+    display: flex;
+    justify-content: flex-end;
+    margin: 40px 0 15px;
+}
+.header-menu ul {
+    display: flex;
+    font-size: 1rem;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.header-menu li {
+    margin: 0 1.5rem;
+}
+.header-menu a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.header-menu a:hover {
+    color: #ffca00;
+}

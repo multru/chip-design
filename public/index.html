@@ -10,6 +10,8 @@
       homescreen on Android. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600" rel="stylesheet"> 
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -25,6 +27,61 @@
     <noscript>
       You need to enable JavaScript to run this app.
     </noscript>
+
+    <header>
+      <div class="container">
+        <div class="header-contacts">
+          <ul>
+            <li class="contacts-phone">
+              <i class="fas fa-phone"></i>+ 79292737992
+            </li>
+            <li class="contacts-mail">
+              <i class="fas fa-envelope"></i>mail@mail.ru
+            </li>
+            <li class="contacts-addres">
+              <i class="fas fa-map-marker-alt"></i>г. Челябинск ул. Труда д. 127
+            </li>
+            <li class="contacts-socials">
+              <div class="container">
+                <a href="#"><i class="fab fa-facebook-square"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-skype"></i></a>
+              </div>
+            </li>
+          </ul>  
+        </div>
+        <div class="header-menu"></div>
+        <div class="header-logo">
+          <a href="#">
+            <img src="%PUBLIC_URL%/images/logo-header.png" alt="chip-design">
+          </a>  
+        </div>
+        <div class="header-gallery"></div>
+        <div class="header-form">
+          <div class="container">
+            <form action="">
+              <ul>
+                <li>
+                  <label for="brand">Марка</label>
+                  <input type="text" name="" id="brand">
+                </li>
+                <li>
+                  <label for="model">Модель</label>
+                  <input type="text" name="" id="model">
+                </li>
+                <li>
+                  <label for="year">Год выпуска</label>
+                  <input type="text" name="" id="year">
+                </li>
+                <li>
+                  <label > </label>
+                  <input type="button" value="заказать звонок"></li>
+              </ul>
+            </form>
+          </div>
+        </div>
+      </div>
+    </header>
     <div id="root"></div>
     <!--
       This HTML file is a template.
